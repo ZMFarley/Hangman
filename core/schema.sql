@@ -1,7 +1,7 @@
 CREATE TABLE leaderboard(
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
     word TEXT NOT NULL,
     score INTEGER NOT NULL, 
-    time_played TEXT
+    time_played DATETIME DEFAULT CURRENT_TIMESTAMP
 )
