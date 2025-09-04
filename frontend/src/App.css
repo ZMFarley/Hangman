@@ -14,6 +14,21 @@
   margin: 0 0 1px 0;
 }
 
+.subtitle{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 1px 0;
+}
+
+.rules{
+  list-style: square;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
 .welcomeGallows{
   font-family:'Courier New', Courier, monospace;
   font-size: 4rem;
